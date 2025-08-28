@@ -1,0 +1,27 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# Data and model files (backend)
+backend/data/*.csv
+backend/models/*.pkl
+backend/models/*.npy
+backend/models/*.json
+backend/prepare_dataset.ipynb
+backend/src/prepare_dataset.ipynb
+
+# Node modules and lock files (frontend)
+frontend/node_modules/
+frontend/package-lock.json
+
+# Environment and system files
+.env
+.DS_Store
+*.log
+node_modules/
+.env
